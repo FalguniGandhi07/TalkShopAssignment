@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D492F992C13818B008201AD /* SharedNetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492F982C13818B008201AD /* SharedNetworkUtility.swift */; };
+		8D492F9B2C1381C0008201AD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492F9A2C1381C0008201AD /* NetworkManager.swift */; };
+		8D492FA02C1382F3008201AD /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492F9F2C1382F3008201AD /* VideoViewModel.swift */; };
+		8D492FA32C138937008201AD /* VideoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492FA22C138937008201AD /* VideoCardView.swift */; };
+		8D492FA52C138A9F008201AD /* VideoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492FA42C138A9F008201AD /* VideoDetailsView.swift */; };
+		8D492FAA2C139949008201AD /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492FA92C139949008201AD /* ProfileData.swift */; };
+		8D492FAC2C139973008201AD /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492FAB2C139973008201AD /* ProfileViewModel.swift */; };
+		8D492FAE2C139B59008201AD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492FAD2C139B59008201AD /* ProfileView.swift */; };
+		8D492FB42C13AED1008201AD /* NetworkServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492FB32C13AED1008201AD /* NetworkServiceManager.swift */; };
+		8D492FB62C13AF0F008201AD /* TalkShopNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D492FB52C13AF0F008201AD /* TalkShopNetworkService.swift */; };
+		8DE0970A2C0F942A002C5FB4 /* TalkShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE097092C0F942A002C5FB4 /* TalkShopApp.swift */; };
+		8DE0970C2C0F942A002C5FB4 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0970B2C0F942A002C5FB4 /* FeedView.swift */; };
+		8DE0970E2C0F942C002C5FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0970D2C0F942C002C5FB4 /* Assets.xcassets */; };
+		8DE097112C0F942C002C5FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE097102C0F942C002C5FB4 /* Preview Assets.xcassets */; };
+		8DE0971B2C0F942C002C5FB4 /* TalkShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0971A2C0F942C002C5FB4 /* TalkShopTests.swift */; };
+		8DE097252C0F942C002C5FB4 /* TalkShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE097242C0F942C002C5FB4 /* TalkShopUITests.swift */; };
+		8DE097272C0F942C002C5FB4 /* TalkShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE097262C0F942C002C5FB4 /* TalkShopUITestsLaunchTests.swift */; };
+		8DE097342C0F9461002C5FB4 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE097332C0F9461002C5FB4 /* Video.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DE097172C0F942C002C5FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE096FE2C0F942A002C5FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE097052C0F942A002C5FB4;
+			remoteInfo = TalkShop;
+		};
+		8DE097212C0F942C002C5FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE096FE2C0F942A002C5FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE097052C0F942A002C5FB4;
+			remoteInfo = TalkShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D492F982C13818B008201AD /* SharedNetworkUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedNetworkUtility.swift; sourceTree = "<group>"; };
+		8D492F9A2C1381C0008201AD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8D492F9F2C1382F3008201AD /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+		8D492FA22C138937008201AD /* VideoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCardView.swift; sourceTree = "<group>"; };
+		8D492FA42C138A9F008201AD /* VideoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsView.swift; sourceTree = "<group>"; };
+		8D492FA92C139949008201AD /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		8D492FAB2C139973008201AD /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		8D492FAD2C139B59008201AD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8D492FB32C13AED1008201AD /* NetworkServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceManager.swift; sourceTree = "<group>"; };
+		8D492FB52C13AF0F008201AD /* TalkShopNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopNetworkService.swift; sourceTree = "<group>"; };
+		8DE097062C0F942A002C5FB4 /* TalkShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE097092C0F942A002C5FB4 /* TalkShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopApp.swift; sourceTree = "<group>"; };
+		8DE0970B2C0F942A002C5FB4 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		8DE0970D2C0F942C002C5FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DE097102C0F942C002C5FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DE097162C0F942C002C5FB4 /* TalkShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE0971A2C0F942C002C5FB4 /* TalkShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopTests.swift; sourceTree = "<group>"; };
+		8DE097202C0F942C002C5FB4 /* TalkShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE097242C0F942C002C5FB4 /* TalkShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopUITests.swift; sourceTree = "<group>"; };
+		8DE097262C0F942C002C5FB4 /* TalkShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DE097332C0F9461002C5FB4 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DE097032C0F942A002C5FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE097132C0F942C002C5FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE0971D2C0F942C002C5FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D492F972C13816C008201AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8D492F982C13818B008201AD /* SharedNetworkUtility.swift */,
+				8D492F9A2C1381C0008201AD /* NetworkManager.swift */,
+				8D492FB32C13AED1008201AD /* NetworkServiceManager.swift */,
+				8D492FB52C13AF0F008201AD /* TalkShopNetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8D492F9C2C1382BF008201AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DE0970B2C0F942A002C5FB4 /* FeedView.swift */,
+				8D492FA22C138937008201AD /* VideoCardView.swift */,
+				8D492FA42C138A9F008201AD /* VideoDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D492F9D2C1382C5008201AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D492F9F2C1382F3008201AD /* VideoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8D492F9E2C1382DA008201AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DE097332C0F9461002C5FB4 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D492FA12C13883D008201AD /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				8D492F9C2C1382BF008201AD /* View */,
+				8D492F9D2C1382C5008201AD /* ViewModel */,
+				8D492F9E2C1382DA008201AD /* Model */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		8D492FAF2C13A563008201AD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8D492FB22C13A576008201AD /* ViewModel */,
+				8D492FB12C13A571008201AD /* Model */,
+				8D492FB02C13A56B008201AD /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8D492FB02C13A56B008201AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D492FAD2C139B59008201AD /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D492FB12C13A571008201AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D492FA92C139949008201AD /* ProfileData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D492FB22C13A576008201AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D492FAB2C139973008201AD /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DE096FD2C0F942A002C5FB4 = {
+			isa = PBXGroup;
+			children = (
+				8DE097082C0F942A002C5FB4 /* TalkShop */,
+				8DE097192C0F942C002C5FB4 /* TalkShopTests */,
+				8DE097232C0F942C002C5FB4 /* TalkShopUITests */,
+				8DE097072C0F942A002C5FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DE097072C0F942A002C5FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DE097062C0F942A002C5FB4 /* TalkShop.app */,
+				8DE097162C0F942C002C5FB4 /* TalkShopTests.xctest */,
+				8DE097202C0F942C002C5FB4 /* TalkShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DE097082C0F942A002C5FB4 /* TalkShop */ = {
+			isa = PBXGroup;
+			children = (
+				8D492FA12C13883D008201AD /* Feed */,
+				8D492FAF2C13A563008201AD /* Profile */,
+				8D492F972C13816C008201AD /* Network */,
+				8DE097092C0F942A002C5FB4 /* TalkShopApp.swift */,
+				8DE0970D2C0F942C002C5FB4 /* Assets.xcassets */,
+				8DE0970F2C0F942C002C5FB4 /* Preview Content */,
+			);
+			path = TalkShop;
+			sourceTree = "<group>";
+		};
+		8DE0970F2C0F942C002C5FB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DE097102C0F942C002C5FB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DE097192C0F942C002C5FB4 /* TalkShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DE0971A2C0F942C002C5FB4 /* TalkShopTests.swift */,
+			);
+			path = TalkShopTests;
+			sourceTree = "<group>";
+		};
+		8DE097232C0F942C002C5FB4 /* TalkShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DE097242C0F942C002C5FB4 /* TalkShopUITests.swift */,
+				8DE097262C0F942C002C5FB4 /* TalkShopUITestsLaunchTests.swift */,
+			);
+			path = TalkShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DE097052C0F942A002C5FB4 /* TalkShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE0972A2C0F942C002C5FB4 /* Build configuration list for PBXNativeTarget "TalkShop" */;
+			buildPhases = (
+				8DE097022C0F942A002C5FB4 /* Sources */,
+				8DE097032C0F942A002C5FB4 /* Frameworks */,
+				8DE097042C0F942A002C5FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkShop;
+			packageProductDependencies = (
+			);
+			productName = TalkShop;
+			productReference = 8DE097062C0F942A002C5FB4 /* TalkShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DE097152C0F942C002C5FB4 /* TalkShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE0972D2C0F942C002C5FB4 /* Build configuration list for PBXNativeTarget "TalkShopTests" */;
+			buildPhases = (
+				8DE097122C0F942C002C5FB4 /* Sources */,
+				8DE097132C0F942C002C5FB4 /* Frameworks */,
+				8DE097142C0F942C002C5FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE097182C0F942C002C5FB4 /* PBXTargetDependency */,
+			);
+			name = TalkShopTests;
+			productName = TalkShopTests;
+			productReference = 8DE097162C0F942C002C5FB4 /* TalkShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DE0971F2C0F942C002C5FB4 /* TalkShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE097302C0F942C002C5FB4 /* Build configuration list for PBXNativeTarget "TalkShopUITests" */;
+			buildPhases = (
+				8DE0971C2C0F942C002C5FB4 /* Sources */,
+				8DE0971D2C0F942C002C5FB4 /* Frameworks */,
+				8DE0971E2C0F942C002C5FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE097222C0F942C002C5FB4 /* PBXTargetDependency */,
+			);
+			name = TalkShopUITests;
+			productName = TalkShopUITests;
+			productReference = 8DE097202C0F942C002C5FB4 /* TalkShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DE096FE2C0F942A002C5FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8DE097052C0F942A002C5FB4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8DE097152C0F942C002C5FB4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8DE097052C0F942A002C5FB4;
+					};
+					8DE0971F2C0F942C002C5FB4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8DE097052C0F942A002C5FB4;
+					};
+				};
+			};
+			buildConfigurationList = 8DE097012C0F942A002C5FB4 /* Build configuration list for PBXProject "TalkShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DE096FD2C0F942A002C5FB4;
+			packageReferences = (
+			);
+			productRefGroup = 8DE097072C0F942A002C5FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DE097052C0F942A002C5FB4 /* TalkShop */,
+				8DE097152C0F942C002C5FB4 /* TalkShopTests */,
+				8DE0971F2C0F942C002C5FB4 /* TalkShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DE097042C0F942A002C5FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE097112C0F942C002C5FB4 /* Preview Assets.xcassets in Resources */,
+				8DE0970E2C0F942C002C5FB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE097142C0F942C002C5FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE0971E2C0F942C002C5FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DE097022C0F942A002C5FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE0970C2C0F942A002C5FB4 /* FeedView.swift in Sources */,
+				8D492FA52C138A9F008201AD /* VideoDetailsView.swift in Sources */,
+				8D492FB62C13AF0F008201AD /* TalkShopNetworkService.swift in Sources */,
+				8D492FAA2C139949008201AD /* ProfileData.swift in Sources */,
+				8D492F992C13818B008201AD /* SharedNetworkUtility.swift in Sources */,
+				8D492FAC2C139973008201AD /* ProfileViewModel.swift in Sources */,
+				8D492F9B2C1381C0008201AD /* NetworkManager.swift in Sources */,
+				8DE097342C0F9461002C5FB4 /* Video.swift in Sources */,
+				8D492FA02C1382F3008201AD /* VideoViewModel.swift in Sources */,
+				8D492FB42C13AED1008201AD /* NetworkServiceManager.swift in Sources */,
+				8DE0970A2C0F942A002C5FB4 /* TalkShopApp.swift in Sources */,
+				8D492FAE2C139B59008201AD /* ProfileView.swift in Sources */,
+				8D492FA32C138937008201AD /* VideoCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE097122C0F942C002C5FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE0971B2C0F942C002C5FB4 /* TalkShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE0971C2C0F942C002C5FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE097272C0F942C002C5FB4 /* TalkShopUITestsLaunchTests.swift in Sources */,
+				8DE097252C0F942C002C5FB4 /* TalkShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DE097182C0F942C002C5FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE097052C0F942A002C5FB4 /* TalkShop */;
+			targetProxy = 8DE097172C0F942C002C5FB4 /* PBXContainerItemProxy */;
+		};
+		8DE097222C0F942C002C5FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE097052C0F942A002C5FB4 /* TalkShop */;
+			targetProxy = 8DE097212C0F942C002C5FB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DE097282C0F942C002C5FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DE097292C0F942C002C5FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE0972B2C0F942C002C5FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 438TX62BMZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.talkShop.TalkShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE0972C2C0F942C002C5FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 438TX62BMZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.talkShop.TalkShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DE0972E2C0F942C002C5FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 438TX62BMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.talkShop.TalkShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkShop";
+			};
+			name = Debug;
+		};
+		8DE0972F2C0F942C002C5FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 438TX62BMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.talkShop.TalkShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkShop";
+			};
+			name = Release;
+		};
+		8DE097312C0F942C002C5FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 438TX62BMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.talkShop.TalkShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkShop;
+			};
+			name = Debug;
+		};
+		8DE097322C0F942C002C5FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 438TX62BMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.talkShop.TalkShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DE097012C0F942A002C5FB4 /* Build configuration list for PBXProject "TalkShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE097282C0F942C002C5FB4 /* Debug */,
+				8DE097292C0F942C002C5FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE0972A2C0F942C002C5FB4 /* Build configuration list for PBXNativeTarget "TalkShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE0972B2C0F942C002C5FB4 /* Debug */,
+				8DE0972C2C0F942C002C5FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE0972D2C0F942C002C5FB4 /* Build configuration list for PBXNativeTarget "TalkShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE0972E2C0F942C002C5FB4 /* Debug */,
+				8DE0972F2C0F942C002C5FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE097302C0F942C002C5FB4 /* Build configuration list for PBXNativeTarget "TalkShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE097312C0F942C002C5FB4 /* Debug */,
+				8DE097322C0F942C002C5FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DE096FE2C0F942A002C5FB4 /* Project object */;
+}
